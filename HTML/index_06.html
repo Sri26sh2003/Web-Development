@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello world</h1>
+    <!-- Parent child -->
+    <!-- div>p>li -->
+    <div>
+        <p>
+            <li></li>
+        </p>
+    </div>
+    <!-- div*5 -->
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <!-- div.class1>p.class2>p#un1>li*5 -->
+    
+     <div class="class1">
+        <p class="class2">
+            <p id="un1">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </p>
+        </p>
+     </div>
+     <!-- Sibling -->
+     <!-- div>p+p+p -->
+     <div>
+        <p></p>
+        <p></p>
+        <p></p>
+     </div>
+     <!-- Grouping -->
+     <!-- div>(nav>li*5)+section -->
+     <div>
+        <nav>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </nav>
+        <section></section>
+     </div>
+     <!-- div>(nav>ul>li*2>a)+footer>p -->
+     <div>
+        <nav>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+        <footer>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </footer>
+     </div>
+</body>
+</html>
