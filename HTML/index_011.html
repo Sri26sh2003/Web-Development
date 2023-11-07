@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><b><i>Getting images from other then local computer</i></b></h1>
+    <img src="https://images.pexels.com/photos/1362724/pexels-photo-1362724.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image"  height="690px" width="690px">    
+    <hr>
+    <h1><b><i>Getting video on the page</i></b></h1>
+    <video src="Top_Falls.3gpp" controls autoplay height="500px"width="500px">Video</video>
+    <video src="Top_Falls.3gpp" controls autoplay muted height="500px"width="500px">Video</video>
+    <video src="https://player.vimeo.com/external/494240660.hd.mp4?s=62eef00126dcdba42797b8e5e1913e90a8f96da9&profile_id=174&oauth2_token_id=57447761" controls autoplay muted height="500px"width="500px">Women</video>
+    <h2>Another way to access multiple sources if one not supports then other</h2>
+    <video controls muted height="500px" width="500px">
+        <source src="https://player.vimeo.com/progressive_redirect/playback/754045159/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=ce8751ee9561965eeafc463527f25377c437c5d9783b4488f0e06b28122c7006">
+        <source src="https://player.vimeo.com/external/635190061.sd.mp4?s=be8c27d197d602a46be56cdac3fbf5e1d753d963&profile_id=165&oauth2_token_id=57447761">
+        <!-- This second video is not shown on the page bcz 1st supports -->
+        your browser doesnot support the video tag
+    </video>
+    <hr>
+    <h1><b><i>Getting a audio on page</i></b></h1>
+    <audio src="titanium-170190.mp3" controls muted>Audio</audio>
+    <audio src="titanium-170190.mp3" controls autoplay>Audio</audio>
+    
+    <h2>Another way to access multiple sources if one not supports then other</h2>
+    <audio controls muted>
+        <source src="once-in-paris-168895.mp3">
+        <source src="once-in-paris-168895.mp3">
+        your browser doesnot support the audio tag
+        <!-- This second audio not shown on the page bcz 1st supports -->
+    </audio>
+</body>
+</html>
