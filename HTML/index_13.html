@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Learner Details!!!</legend>
+        <form>
+            <ol>
+                <li><label for="name">Enter your username:</label>
+                <input type="text" id="name" name="username"></li>
+                <li><label for="pass">Creat password:</label>
+                <input type="password" id="pass" name="userpassword"></li>
+                <li><label for="mail">Enter email:</label>
+                <input type="email" id="mail" name="useremail"></li>
+                <li><label for="num">Enter number:</label>
+                <input type="number" id="num" name="usernumber"></li>
+                <li><label for="dob">Enter your date of birth:</label>
+                <input type="date" id="dob" name="userdob"></li>
+                <li>Enter Gender:
+                    <ul>
+                        <li> <label for="male">Male</label>
+                            <input type="radio" id="male" name="gender"></li>
+                        <li><label for="female">Female</label>
+                            <input type="radio" id="female" name="gender"></li>
+                        <li><label for="ts">Transgender</label>
+                            <input type="radio" id="ts" name="gender"></li>
+
+                    </ul>
+                    
+                </li>
+                <li><label for="address">Enter Address:</label>
+                <textarea name="useraddress" id="address" cols="30" rows="3"></textarea></li>
+                <li>Which languages do you know:<ul>
+                    <li><label for="py">Python</label>
+                    <input type="checkbox" id="py" name="python"></li>
+                    <li><label for="c++">C++</label>
+                        <input type="checkbox" id="c++" name="c++"></li>
+                    <li><label for="java">Java</label>
+                        <input type="checkbox" id="java" name="java"></li>
+                </ul></li>
+
+            </ol>
+            <input type="submit" value="Submit Form">
+        </form>
+    </fieldset>
+</body>
+</html>
