@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><b>Form is sent by Get method</b></h1>
+    <hr>
+    <fieldset>
+        <legend>Learner Details!!!</legend>
+        <form method="get" action="/singup">
+            <ol>
+                <li><label for="name">Enter your username:</label>
+                <input type="text" id="name" name="username"></li>
+                <br>
+                <li><label for="pass">Creat password:</label>
+                <input type="password" id="pass" name="userpassword"></li>
+                <br>
+                <li><label for="mail">Enter email:</label>
+                <input type="email" id="mail" name="useremail"></li>
+                <br>
+                <li><label for="num">Enter number:</label>
+                <input type="number" id="num" name="usernumber"></li>
+                <br>
+                <li><label for="dob">Enter your date of birth:</label>
+                <input type="date" id="dob" name="userdob"></li>
+                <br>
+                <li>Enter Gender:
+                    <ul>
+                        <li> <label for="male">Male</label>
+                            <input type="radio" id="male" name="gender" value="male"></li>
+                            <br>
+                        <li><label for="female">Female</label>
+                            <input type="radio" id="female" name="gender" value="female"></li>
+                            <br>
+                        <li><label for="ts">Transgender</label>
+                            <input type="radio" id="ts" name="gender" value="transgender"></li>
+                            <br>
+
+                    </ul>
+                    
+                </li>
+                <br>
+                <li><label for="address">Enter Address:</label>
+                <textarea name="useraddress" id="address" cols="30" rows="3"></textarea></li>
+                <br>
+                <li>Which languages do you know:<ul>
+                    <li><label for="py">Python</label>
+                    <input type="checkbox" id="py" name="python"></li>
+                    <br>
+                    <li><label for="c++">C++</label>
+                        <input type="checkbox" id="c++" name="c++"></li>
+                        <br>
+                    <li><label for="java">Java</label>
+                        <input type="checkbox" id="java" name="java"></li>
+                        <br>
+                </ul></li>
+                <br>
+
+            </ol>
+            
+            <input type="submit" value="Submit Form">
+            <br>
+        </form>
+    </fieldset>
+</body>
+</html>
