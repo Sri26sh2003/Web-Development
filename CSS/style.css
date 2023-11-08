@@ -1,0 +1,14 @@
+.heading{
+    color: #777 sdf;
+    font-size: 43px;
+    text-align: center;
+    text-decoration: underline;
+    border: 2px dotted black;
+}
+.para{
+    color: aqua;
+    border: 2px dashed brown;
+}
+body{
+    background-color:  yellow;
+}
