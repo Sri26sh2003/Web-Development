@@ -1,0 +1,28 @@
+h1{
+    color:#f7c708;
+    text-align: center;
+    text-decoration-line:overline;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.class1{
+    text-align:left;
+}
+p{
+    text-align-last: center;
+    direction:ltr;
+    text-indent: 7px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 20px;
+}
+h2{
+    text-decoration: underline;
+}
+#id1{
+    text-decoration: none;
+}
+
+    
+
