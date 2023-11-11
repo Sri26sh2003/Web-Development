@@ -1,0 +1,78 @@
+.grad1{
+    height: 250px;
+    background-image: linear-gradient(red,yellow);
+}
+.grad2{
+    height: 250px;
+    background-image: linear-gradient(to right,red,yellow);
+}
+.grad3{
+    height: 250px;
+    background-image: linear-gradient(to left ,red,yellow);
+}
+.grad4{
+    height: 250px;
+    background-image: linear-gradient(to top,red,yellow);
+}
+.grad5{
+    height: 250px;
+    background-image: linear-gradient(to bottom,red,yellow);
+}
+.grad6{
+    height: 250px;
+    background-image: repeating-linear-gradient(red,yellow);
+}
+.grad7{
+    height: 250px;
+    background-image: repeating-linear-gradient(to right,red,yellow);
+}
+.grad8{
+    height: 250px;
+    background-image: repeating-linear-gradient(to left ,red,yellow);
+}
+.grad9{
+    height: 250px;
+    background-image: repeating-linear-gradient(to top,red,yellow);
+}
+.grad10{
+    height: 250px;
+    background-image: repeating-linear-gradient(to bottom,red,yellow);
+}
+.grad11{
+    height:750px;
+    background-image: radial-gradient(red,yellow);
+}
+.grad12{
+    height:750px;
+    background-image: radial-gradient(circle,red,yellow);
+}
+.grad13{
+    height:750px;
+    background-image: radial-gradient(ellipse,red,yellow);
+}
+.grad14{
+    height: 750px;
+    background-image: repeating-radial-gradient(red,yellow);
+}
+.grad15{
+    height: 750px;
+    background-image: repeating-radial-gradient(circle,red 10%,yellow 20%);
+}
+.grad16{
+    height: 750px;
+    background-image: repeating-radial-gradient(ellipse,red 10%,yellow 20%);
+}
+.grad17{
+    height: 750px;
+    background-image: conic-gradient(red,yellow,blue);
+}
+.grad18{
+    height: 750px;
+    background-image: conic-gradient(red,yellow 210deg,blue);
+}
+h2{
+    text-align:left;
+}
+.class1{
+    text-align: center;
+}
