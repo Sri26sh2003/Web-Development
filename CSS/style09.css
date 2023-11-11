@@ -1,0 +1,35 @@
+h1{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Source Code Pro', monospace;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    font-size: 50px;
+    font-variant: small-caps;
+    color:#2a11cba2;
+}
+body{
+    background-color:#000000;
+}
+.inline{
+    display: inline;
+    color:#eba90f;
+}
+.in-block{
+    display:inline-block;
+    color:#f00ed2b6;
+    width: 1000px;
+    height: 140px;
+}
+.hidden{
+    display: hidden;
+    color:#1ed27b;
+}
+.none{
+    display: none;
+    color:aliceblue;
+}
+ol>li{
+    color:#f0ffff;
+}
