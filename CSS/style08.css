@@ -1,0 +1,31 @@
+h1,h2{
+    font-family: times 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 500;
+    color:#06bce4b4;
+}
+h1{
+    text-decoration:double;
+    text-align: center;
+    font-size: 60px;
+    text-decoration-line: underline;
+}
+h2{
+    text-align: left;
+    font-size: 50px;
+    text-decoration: dashed;
+    text-decoration-line: underline;
+}
+p{
+    font-size: 30px;
+    font-variant: small-caps;
+    color: #ee1b7a;
+}
+ol>li{
+    text-decoration: dashed;
+    color: #f1b40bd0;
+    font-size: 40px;
+}
+body{
+    background-color: #000000;
+}
