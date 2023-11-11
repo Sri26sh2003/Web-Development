@@ -1,0 +1,50 @@
+.height{
+    height: 5px;
+    background-color: #000000;
+    border: 2px solid red;
+    display:inline-block;
+    color:yellow;
+}
+.minheight{
+    min-height: 5px;
+    background-color: #000000;
+    border: 2px solid red;
+    display:inline-block;
+    color:yellow;
+}
+.maxheight{
+    max-height: 5px;
+    background-color: #000000;
+    border: 2px solid red;
+    display:inline-block;
+    color:yellow;
+}
+
+.width{
+    width: 5px;
+    background-color: #000000;
+    border: 2px solid red;
+    display:inline-block;
+    color:yellow;
+}
+.minwidth{
+    min-width: 5px;
+    background-color: #000000;
+    border: 2px solid red;
+    display:inline-block;
+    color:yellow;
+}
+.maxwidth{
+    max-height: 5px;
+    background-color: #000000;
+    border: 2px solid red;
+    display:inline-block;
+    color:yellow;
+}
+.overflow{
+    overflow:hidden;
+    background-color: #000000;
+    border: 2px solid red;
+    display:inline-block;
+    color:yellow;
+}

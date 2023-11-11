@@ -1,0 +1,73 @@
+body{
+    background-color: #000000;
+}
+ol>li{
+    color:#7fffd4;
+}
+h1{
+    color: #ffd700;
+}
+h2{
+    color:#ffe4c4;
+}
+.hover{
+    color:#f5f5dc;
+}
+.hover:hover{
+    color:#ff0000;
+}
+input{
+    display: inline;
+}
+input:focus{
+    background-color: #fff;
+    color:#000000;
+    font-size: 40px;
+}
+label{
+    color:brown;
+    display: inline;
+}
+a{
+    display:block;
+    font-size: 40px;
+}
+a:visited{
+    color:#ffffff;
+}
+a:active{
+    color:#556b2f;
+}
+a:first-child{
+    color: #b8860b;
+}
+a:nth-child(2n){
+    color:#008b8b;
+}
+.pra::after{
+    content: "Srisha";
+    color:#bdb76b;
+}
+.pra::before{
+    content: "Srisha";
+    color:#bdb76b;
+}
+.pra::first-line{
+    color:#9acd32;
+}
+.pra::first-letter{
+    color:#0000ff;
+}
+.pra::selection{
+    background-color: #fff;
+    color:#000000;
+}
+h3{
+    color:#ffffff;
+}
+ol>li::marker{
+    color:#f5f5f5;
+}
+p{
+    color:#ffffff;
+}
