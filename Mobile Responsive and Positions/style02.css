@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    color:white;
+}
+div{
+    text-align: center;
+    font-size: xx-large;
+}
+div::after{
+    content: 'Welcome to my Website';
+}
+@media only screen and (max-width:600px) {
+    body{
+        background-color: white;
+        color:black;
+    }
+    div{
+        text-align: center;
+        font-size: xx-large;
+    }
+    div::after{
+        content: 'This query is for phones';
+    }
+}
+@media only screen and (min-width:600px) {
+    body{
+        background-color: orange;
+        color:black;
+    }
+    div{
+        text-align: center;
+        font-size: xx-large;
+    }
+    div::after{
+        content: 'This query is for Big phones and Protraint Tablets';
+    }
+}
+@media only screen and (min-width:768px) {
+    body{
+        background-color: green;
+        color:black;
+    }
+    div{
+        text-align: center;
+        font-size: xx-large;
+    }
+    div::after{
+        content: 'This query is for Tablets';
+    }
+}
+@media only screen and (min-width:992px) {
+    body{
+        background-color: pink;
+        color:black;
+    }
+    div{
+        text-align: center;
+        font-size: xx-large;
+    }
+    div::after{
+        content: 'This query is for laptops';
+    }
+}
+@media only screen and (min-width:1200px) {
+    body{
+        background-color: gold;
+        color:black;
+    }
+    div{
+        text-align: center;
+        font-size: xx-large;
+    }
+    div::after{
+        content: 'This query is for Large Laptops and Larger screens';
+    }
+}
+
