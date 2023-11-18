@@ -1,0 +1,75 @@
+body{
+    background-color: red;
+}
+div{
+    text-align: center;
+    font-size: x-large;
+}
+div::after{
+    content: 'Welcome to my Website';
+}
+@media (min-width:400px) and (max-width:650px){
+    body{
+        background-color: burlywood;
+        color:darkred;
+    }
+    div{
+        text-align: center;
+        font-size: x-large;
+    }
+    div::after{
+        content: 'From 400px to 650px this css applies';
+    }
+}
+@media (min-width:650px){
+    body{
+        background-color: green;
+        color:red;
+    }
+    div{
+        text-align: center;
+        font-size: x-large;
+    }
+    div::after{
+        content: '650px and more then 650px this css applies';
+    }
+}
+@media (min-width:900px){
+    body{
+        background-color: black;
+        color:aliceblue;
+    }
+    div{
+        text-align: center;
+        font-size: x-large;
+    }
+    div::after{
+        content: '900px Or more then 900px this css applies';
+    }
+}
+@media (900px <= width <= 1200px){
+    body{
+        background-color: blueviolet;
+        color:honeydew;
+    }
+    div{
+        text-align: center;
+        font-size: x-large;
+    }
+    div::after{
+        content: 'From 900px to 1200px this css applies';
+    }
+}
+@media (1200px <= width){
+    body{
+        background-color: white;
+        color:black;
+    }
+    div{
+        text-align: center;
+        font-size: x-large;
+    }
+    div::after{
+        content: 'More then 1200px this css applies';
+    }
+}
