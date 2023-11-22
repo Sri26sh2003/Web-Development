@@ -1,0 +1,28 @@
+.cont{
+    border: 2px solid black;
+    display:flex;
+    /* display:inline-flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    /* justify-content:space-between; */
+    /* justify-content: center; */
+    height: 160px;
+    align-items:stretch;
+    /* gap:10px; */
+    row-gap: 20px;
+    column-gap: 20px;
+}
+/* .box{
+    height: 100px;
+    width: 100px;
+} */
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: yellow;
+}
+.box3{
+    background-color: green;
+}
