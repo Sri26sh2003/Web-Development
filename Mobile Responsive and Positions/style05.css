@@ -1,0 +1,33 @@
+p{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+h1{
+    position: relative;
+    top:0;
+    border: 2px solid black;
+    z-index: 2;
+}
+.one{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border: 2px solid black;
+    position:absolute;
+    top:15px;
+    z-index: 1;
+}
+.two{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border: 2px solid black;
+    position:absolute;
+    top:15px;
+    z-index: 3;
+    left:350px;
+}
