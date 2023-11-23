@@ -1,6 +1,7 @@
 .box{
     height: 100px;
     width: 100px;
+    /* padding: 2px; */
 }
 .cont{
     display: grid;
@@ -11,6 +12,8 @@
 }
 .box1{
     background-color: red;
+    /* grid-row-start: 1; */
+    /* grid-row-end: 3; */
 }
 .box2{
     background-color: green;
@@ -33,6 +36,8 @@
 
 .box7{
     background-color: violet;
+    /* grid-column-start: 1; */
+    /* grid-column-end: 3; */
 }
 
 .box8{

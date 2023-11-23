@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+.cont{
+    display: grid;
+    height: 500px;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+}
+.box{
+    /* height: 100px;
+    width: 100px; */
+}
+.box1{
+    background-color: red;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.box2{
+    background-color: purple;
+}
+.box3{
+    background-color: violet;
+}
+.box4{
+    background-color: brown;
+}
+.box5{
+    background-color: orange;
+}
+.box6{
+    background-color: pink;
+}
+.box7{
+    background-color: yellow;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.box8{
+    background-color: green;
+}
+.box9{
+    background-color: blue;
+}
