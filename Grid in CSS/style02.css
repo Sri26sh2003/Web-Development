@@ -1,0 +1,42 @@
+/* body{
+    background-color: black;
+    color: white;
+} */
+#id1{
+    display: grid;
+    width: 100%;
+    height: 750px;
+    border: 2px solid black;
+    grid-template-areas: 
+    "h h"
+    "n m"
+    "a m"
+    "f f";
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+    grid-template-columns: 1fr 3fr;
+}
+#id1>header{
+    border: 2px solid black;
+    grid-area: h;
+    background-color: red;
+}
+#id1>nav{
+    border: 2px solid black;
+    grid-area: n;
+    background-color: yellow;
+}
+#id1>main{
+    border: 2px solid black;
+    grid-area: m;
+    background-color: gray;
+}
+#id1>aside{
+    border: 2px solid black;
+    grid-area: a;
+    background-color: green;
+}
+#id1>footer{
+    border: 2px solid black;
+    grid-area: f;
+    background-color: blue;
+}
