@@ -14,22 +14,29 @@
     background-color: red;
     grid-column-start: 1;
     grid-column-end: 3;
+    text-align: center;
+    font-size: xx-large;
 }
 .box2{
     background-color: blue;
+    text-align: center;
+    font-size: xx-large;
 }
 .box3{
     background-color: green;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 2fr,1fr;
+    /* grid-template-rows: 1fr 1fr; */
     justify-items: center;
     align-items: end;
+    padding: 5px;
 }
 .box4{
     background-color: yellow;
     grid-column-start: 1;
     grid-column-end: 3;
+    text-align: center;
+    font-size: xx-large;
 }
 .box5{
     background-color: pink;
@@ -44,10 +51,16 @@
 }
 .boxbox1{
     background-color: gray;
+    text-align: center;
+    font-size: xx-large;
 }
 .boxbox2{
     background-color: aqua;
+    text-align: center;
+    font-size: xx-large;
 }
 .boxbox3{
     background-color: magenta;
+    text-align: center;
+    font-size: xx-large;
 }
