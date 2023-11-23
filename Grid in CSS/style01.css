@@ -1,0 +1,28 @@
+.container{
+    border: 2px solid black;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 600px 800px 1000px;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    /* grid-template-areas: header header header; */
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+.box1{
+    background-color: red;
+    justify-self: end;
+}
+.box2{
+    background-color: yellow;
+    align-self: center;
+}
+.box3{
+    background-color: green;
+    align-self:start;
+}
