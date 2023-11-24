@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #EAEFFC;
+    color:#3F4344;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+}
+.Navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: #3F4044;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+nav ul li:hover{
+    font-weight: 900;
+    font-size: 20px;
+}
+.Logo1{
+    font-weight: 900;
+    font-size: 50px;
+}
+.Logo2{
+    font-weight: 500;
+    font-size: 25px;
+}
+.Search_bar{
+    display: flex;
+    gap: 30px;
+}
+input{
+    padding: 4px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+input:hover{
+    font-size: 15px;
+    font-weight: 700;
+}
+.Button{
+    background-color: #128B89;
+    padding: 4px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+.Button:hover{
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #128B89;
+    border: 2px solid black;
+}
+.main_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left_section{
+    width: 60%;
+    padding: 0 8%;
+}
+.left_section h1{
+    font-size: 28px;
+    font-weight: 500;
+}
+.left_section h1 span{
+    font-size: 35px;
+    font-weight: 900;
+    color: #128B89;
+    background-color: #DCDBDC;
+    padding: 5px;
+}
+.left_section p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.left_section p span{
+    color: #128B89;
+    font-size: 23px;
+    font-weight: 700;
+}
+.Footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+.Footer ul li:hover{
+    font-weight: 800;
+    font-size: 25px;
+}
+.right_section{
+    width:40%;
+    padding:5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+.right_section_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
