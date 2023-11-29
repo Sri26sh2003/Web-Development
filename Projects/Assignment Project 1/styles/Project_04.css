@@ -47,7 +47,8 @@ a{
 }
 .heading{
     color:#ffc332;
-    font-weight: 700;
+    max-width: 1154px;
+    font-weight: 1500;
     font-size: 60px;
     margin:0;
     padding: 0;
