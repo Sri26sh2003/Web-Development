@@ -6,6 +6,7 @@
 body{
     background-color: black;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 .page1{
     display: flex;
@@ -87,8 +88,9 @@ body{
     border: none;
     border-radius: 7px;
     background-color: rgb(43, 42, 42);
-    width: 210px;
+    width: 220px;
     padding: 7px 12px;
+    gap: 5px;
 }
 .addtobag:hover{
     display: flex;
@@ -200,4 +202,197 @@ body{
     align-items: center;
     font-size: 40px;
     color: #323030;
+}
+.main-page4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page4-img1n2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 70px;
+}
+.content-img1{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+.content-img1:hover{
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #1a1818;
+    padding: 1px 1px;
+    border: none;
+    border-radius: 5px;
+}
+.page4-img3n4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 70px;
+}
+.page4-img5n6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-bottom: 70px;
+}
+.page4-img1{
+    background-color: #343232;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 20px;
+    width: 252.46px;
+}
+.page4-img2{
+    background-color: #343232;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 20px;
+    width: 252.46px;
+}
+.page4-img3{
+    background-color: #343232;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 20px;
+    width: 252.46px;
+}
+.page4-img4{
+    background-color: #343232;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 20px;
+    width: 252.46px;
+}
+.page4-img5{
+    background-color: #343232;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 20px;
+}
+.img1{
+    display: flex;
+    gap: 100px;
+}
+.img2{
+    display: flex;
+    gap: 60px;
+}
+.img2 .content-content1 h1{
+    font-size: 16px;
+}
+.img3{
+    display: flex;
+    gap: 50px;
+}
+.img3 .content-content1 h1{
+    font-size: 16px;
+}
+.img4{
+    display: flex;
+    gap: 100px;
+}
+.img3:hover{
+    padding:0;
+}
+.project-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    gap: 150px;
+}
+.list1 ul li , .list2 ul li{
+    list-style: none;
+}
+.list1 ul li:hover{
+    cursor: pointer;
+}
+.list2 ul li:hover{
+    cursor: pointer;
+}
+.list1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.list2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.list1 h1:hover{
+    font-size: 35px;
+    cursor: pointer;
+}
+.list2 h1:hover{
+    font-size: 35px;
+    cursor: pointer;
+}
+.email-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.subscription{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.fullform{
+    border: none;
+    background-color: #2e2c2c;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.subscription>input{
+    background-color: #2e2c2c;
+    border: none;
+    text-decoration: none;
+    color: white;
+}
+.subscription>input:focus{
+    outline:none
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    background-color: black;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+.subscribe>input{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.subscribe:hover{
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.images:hover{
+    cursor: pointer;
 }
