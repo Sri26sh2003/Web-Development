@@ -331,11 +331,9 @@ body{
     gap: 30px;
 }
 .list1 h1:hover{
-    font-size: 35px;
     cursor: pointer;
 }
 .list2 h1:hover{
-    font-size: 35px;
     cursor: pointer;
 }
 .email-button{
@@ -394,5 +392,8 @@ body{
     gap: 20px;
 }
 .images:hover{
+    cursor: pointer;
+}
+.project-footer>img{
     cursor: pointer;
 }
