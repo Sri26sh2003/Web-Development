@@ -309,7 +309,7 @@ body{
     align-items: center;
     margin-top: 50px;
     margin-bottom: 70px;
-    gap: 150px;
+    gap: 120px;
 }
 .list1 ul li , .list2 ul li{
     list-style: none;
