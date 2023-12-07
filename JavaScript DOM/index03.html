@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p id="js"></p>
+    <button onclick="hey()" id="iss">Submit</button>
+    <script>
+        document.addEventListener("click",hello);// dblclick mouseenter etc... mdn eventlistener in js
+            function hello(){
+                    document.getElementById("js").innerText = "Namaste";
+                }
+        function hey(){
+            document.getElementById("iss").innerText = "Hello";
+            document.getElementById("iss").style.color = "red";
+            document.getElementById("iss").style.backgroundColor = "black";
+            document.getElementById("iss").style.padding = "5px";
+            document.getElementById("iss").style.border = "3px solid yellow";
+        }
+    </script>
+</body>
+</html>
