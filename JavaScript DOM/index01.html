@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- DOM manipulation by id -->
+    <h1 id="hello"><span>Hello</span> Namaste</h1>
+
+    <!-- DOM manipulation by class -->
+    <ul>
+        <li class="tech">Hello <span>Srisha</span></li>
+        <li class="tech">HI <span>Ashrit</span></li>
+        <li class="tech">Hola <span>Developer</span></li>
+    </ul>
+
+    <!-- DOM manipulation by Tagname -->
+    <h3>Hey</h3>
+    <h3>Hello</h3>
+    <h3>Hola</h3>
+
+    <!-- Query Selector -->
+    <h2 class="class">Class</h2>
+    <h2 id="ids">ID</h2>
+    <h6>Tag</h6>
+
+    <!-- Windows by default set -->
+    <ul>
+        <li class="second-class">One1</li>
+        <li class="second-class">Two2</li>
+        <li class="second-class">Three3</li>
+    </ul>
+
+    <!-- Internal JavaScript -->
+    <script>
+        // ID
+        let var1 = document.getElementById("hello");
+        console.log(var1);
+        console.log(var1.innerHTML);
+        console.log(var1.innerText);
+
+        // Class
+        let var2 = document.getElementsByClassName("tech");
+        console.log(var2);
+        console.log(var2[0]);
+        console.log(var2[1].innerHTML);
+        console.log(var2[2].innerText);
+        var2[2].innerText = "Nodejs";
+        console.log(var2[2].innerHTML);
+        console.log(var2[2].innerText);
+
+        //Tagname
+        let var3 = document.getElementsByTagName("h3");
+        console.log(var3);
+        var3[0].innerText = "Namaste";
+        console.log(var3[0].innerText);
+        console.log(var3);
+        //Style
+        var3[0].style.color = "red";
+
+        //Query Selector
+        let var4 = document.querySelector(".class");
+        console.log(var4);
+        let var5 = document.querySelector("#ids");
+        console.log(var5);
+        let var6 = document.querySelector("h6");
+        console.log(var6);
+
+        //Changing class name and classlist
+        var4.className = "First-class";
+        console.log(var4);
+        var5.classList = "Second Third Fourth";
+        console.log(var5);
+
+        //Attribute setter
+        var4.setAttribute("title","Classes");
+
+        //Window is by default set
+       let var7 = window.document.getElementsByClassName("second-class");
+       console.log(var7);
+       console.log(var7[0].innerText);
+    </script>
+</body>
+</html>

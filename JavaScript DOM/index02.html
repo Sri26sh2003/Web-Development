@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <script>
+        //Creat Element
+        let var1 = document.createElement("h1");
+        var1.className = "Class1";
+        var1.style.fontSize = "30px";
+        var1.textContent = "Hello Developers"
+        console.log(var1);
+        document.body.appendChild(var1);
+        //Remove Child
+        let ul = document.querySelector("ul");
+        console.log(ul);
+        let lists = document.querySelectorAll("li");
+        console.log(lists);
+        for(list of lists){
+            ul.removeChild(list);
+        }
+
+    </script>
+</body>
+</html>
