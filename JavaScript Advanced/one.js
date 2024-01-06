@@ -44,3 +44,17 @@ function myarray2(...args2){
 }
 myarray2(1,2,3);
 myarray2(1,2,3,4,5,6,7);
+
+// Examples on Spread
+const names = ["supernam","batman","spiderman"]
+const mynames = ["Srisha",...names,"Bussinessman"]
+console.log(mynames);
+
+const webdevelopers = "Frontend-developer";
+console.log([...webdevelopers]);
+
+// Examples on Rest
+function first(...variable){
+    return variable;
+}
+console.log(first("x","y","z"));
